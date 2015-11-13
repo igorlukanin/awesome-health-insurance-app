@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Контур.Страховка</title>
+    <link rel="stylesheet" href="node_modules/framework7/dist/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="node_modules/framework7/dist/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="views">
+        <div class="view view-main">
+            <div class="navbar">
+                <div data-page="index" class="navbar-inner">
+                    <div class="center sliding">Контур.Страховка</div>
+                </div>
+                <div data-page="services" class="navbar-inner cached">
+                    <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Назад</span></a></div>
+                    <div class="center sliding">Медицинские услуги</div>
+                </div>
+                <div data-page="doctors" class="navbar-inner cached">
+                    <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Назад</span></a></div>
+                    <div class="center sliding">Специалисты</div>
+                </div>
+            </div>
+
+            <div class="pages navbar-through toolbar-through">
+                <div data-page="index" class="page">
+                    <div class="page-content">
+                        <div class="content-block">Медицинские услуги по&nbsp;депозитной программе&nbsp;ДМС для&nbsp;работников СКБ&nbsp;Контур в&nbsp;Екатеринбурге.</div>
+                        <div class="content-block">
+                            <p><a href="#services" class="button button-big">Получить медицинскую услугу</a></p>
+                            <p><a href="#doctors" class="button button-big">Записаться на приём к специалисту</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-page="services" class="page cached">
+                    <form data-search-list=".list-services-search1, .list-services-search2, .list-services-search3" data-search-in=".item-title" class="searchbar searchbar-init">
+                        <div class="searchbar-input">
+                            <input type="search" placeholder="Поиск услуг"><a href="#" class="searchbar-clear"></a>
+                        </div><a href="#" class="searchbar-cancel">Отмена</a>
+                    </form>
+
+                    <div class="searchbar-overlay"></div>
+
+                    <div class="page-content">
+                        <div class="content-block searchbar-not-found">
+                            <div class="content-block-inner">Подходящие услуги не найдены</div>
+                        </div>
+
+                        <div class="content-block-title">Диагностика</div>
+                        <div class="list-block list-services-search1 searchbar-found">
+                            <ul>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Компьютерная томография <span class="abbr">КТ</span></div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Магниторезонансная томография <span class="abbr">МРТ</span></div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Маммография</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Рентгенография</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Ультразвуковое исследование <span class="abbr">УЗИ</span></div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Эндоскопическое исследование</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block-title">Лабораторные исследования</div>
+                        <div class="list-block list-services-search2 searchbar-found">
+                            <ul>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Аллергология</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Антитела к возбудителям заболеваний</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Биохимическое исследование мочи</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Гемостаз</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Генетическое исследование</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Иммунологическое исследование</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Микробиологическое исследование</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Онкомаркеры</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Определение уровня гормонов</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">ПЦР-диагностика</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Цито- и гистологическое исследование</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block-title">Операции</div>
+                        <div class="list-block list-services-search3 searchbar-found">
+                            <ul>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Гинекологические операции</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">ЛОР-операции</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Нейрохирургические операции</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Общая хирургия</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Проктологические операции</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Травматология</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Хирургическая коррекция избыточного веса</div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Эстетическая хирургия</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div data-page="doctors" class="page cached">
+                        <form data-search-list=".list-doctors-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                            <div class="searchbar-input">
+                                <input type="search" placeholder="Поиск специалистов"><a href="#" class="searchbar-clear"></a>
+                            </div><a href="#" class="searchbar-cancel">Отмена</a>
+                        </form>
+
+                        <div class="searchbar-overlay"></div>
+
+                        <div class="page-content">
+                            <div class="content-block searchbar-not-found">
+                                <div class="content-block-inner">Подходящие специалисты не найдены</div>
+                            </div>
+
+                            <div class="list-block list-doctors-search searchbar-found">
+                                <ul>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Анестезиолог-реаниматолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Вертебролог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Гастроэнтеролог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Гематолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Гепатолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Гинеколог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Дерматовенеролог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Диетолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Иммунолог-аллерголог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Инфекционист</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Кардиолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Липидолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Маммолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Невролог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Нейрохирург</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Нефролог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Онколог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Оториноларинголог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Офтальмолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Подолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Проктолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Психотерапевт</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Пульмонолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Ревматолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Терапевт</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Торакальный хирург</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Травматолог-ортопед</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Уролог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Физиотерапевт</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Хирург</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Хирург пластический</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Хирург сосудистый</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Эндокринолог</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title">Эндоскопист</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="node_modules/framework7/dist/js/framework7.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
