@@ -1,4 +1,18 @@
 .abbr {
     color: #999;
-    padding-left: .5em;
+    margin-left: .5em;
+}
+
+.additional-info {
+    background-color: #007aff;
+    border-radius: .5em;
+    color: #fff;
+    display: inline-block;
+    font-size: .75em;
+    margin-left: .5em;
+    padding: .25em .5em;
+}
+
+a.item-content {
+    color: inherit
 }
