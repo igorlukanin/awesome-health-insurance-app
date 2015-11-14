@@ -21,6 +21,12 @@ var monthNames = [
     'Декабрь'
 ];
 
+var calendarDateFormat = app.calendar({
+    input: '#calendar-date-format',
+    value: [new Date(2015, 11, 17)],
+    dateFormat: 'DD, MM dd, yyyy'
+});
+
 var calendarInline = app.calendar({
     container: '#calendar-inline-container',
     value: [new Date()],
@@ -49,6 +55,13 @@ var calendarInline = app.calendar({
     onMonthYearChangeStart: function (p) {
         $$('.calendar-custom-toolbar .center').text(monthNames[p.currentMonth] +', ' + p.currentYear);
     }
+});
+
+jQuery(function() {
+    $('#calendar-inline-container').on('click', function() {
+        $('#calendar-inline-container').addClass('hidden');
+        $('#selected-date').removeClass('hidden');
+    });
 });
 
 var ptrContent = $$('.pull-to-refresh-content');
