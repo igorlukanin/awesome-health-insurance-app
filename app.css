@@ -1,6 +1,5 @@
 .abbr {
     color: #999;
-    margin-left: .5em;
 }
 
 .additional-info {
@@ -8,11 +7,39 @@
     border-radius: .5em;
     color: #fff;
     display: inline-block;
-    font-size: .75em;
-    margin-left: .5em;
-    padding: .25em .5em;
+    margin-left: .25em;
+    padding: 0 .5em;
+}
+
+.item-title-main {
+    font-weight: bold;
 }
 
 a.item-content {
     color: inherit
+}
+
+.subline {
+    color: #999;
+    font-size: .75em;
+    margin: .5em 0;
+}
+
+.call-action {
+    text-align: center;
+}
+
+.call-action_phone {
+    font-size: 2em;
+}
+
+.page_call {
+    background: url('call.png') no-repeat center;
+    background-size: cover;
+}
+
+.call-action_return {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
