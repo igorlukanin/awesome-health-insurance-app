@@ -11,6 +11,14 @@
     padding: 0 .5em;
 }
 
+.additional-info_warning {
+    background-color: orange;
+}
+
+.additional-info_success {
+    background-color: green;
+}
+
 .item-title-main {
     font-weight: bold;
 }
@@ -42,4 +50,8 @@ a.item-content {
     display: block;
     height: 100%;
     width: 100%;
+}
+
+.card-content-inner {
+    font-size: 1.25em;
 }

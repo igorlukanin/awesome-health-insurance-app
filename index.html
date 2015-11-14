@@ -17,6 +17,9 @@
                 <div data-page="index" class="navbar-inner">
                     <div class="center sliding">Контур.Страховка</div>
                 </div>
+                <div data-page="index-step2" class="navbar-inner">
+                    <div class="center sliding">Контур.Страховка</div>
+                </div>
                 <div data-page="services" class="navbar-inner cached">
                     <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Назад</span></a></div>
                     <div class="center sliding">Медицинские услуги</div>
@@ -35,13 +38,39 @@
                 </div>
                 <div data-page="appointment" class="navbar-inner cached">
                     <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Назад</span></a></div>
-                    <div class="center sliding">Запись на приём</div>
+                    <div class="center sliding">Доктор Плюс</div>
                 </div>
             </div>
 
             <div class="pages navbar-through toolbar-through">
                 <div data-page="index" class="page">
                     <div class="page-content">
+                        <div class="content-block">Медицинские услуги по&nbsp;депозитной программе&nbsp;ДМС для&nbsp;работников СКБ&nbsp;Контур в&nbsp;Екатеринбурге.</div>
+                        <div class="content-block">
+                            <p><a href="#services" class="button button-big">Получить медицинскую услугу</a></p>
+                            <p><a href="#doctors" class="button button-big">Записаться на приём к специалисту</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-page="index-step2" class="page cached">
+                    <div class="page-content pull-to-refresh-content">
+                        <div class="pull-to-refresh-layer">
+                            <div class="preloader"></div>
+                            <div class="pull-to-refresh-arrow"></div>
+                        </div>
+                        <div class="content-block-title">Запись на приём 17 ноября 2015</div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-content-inner">
+                                    <div class="item-title-main">Доктор Плюс <span class="additional-info additional-info_warning">В процессе одобрения</span></div>
+                                    <div class="subline">Приём терапевта <span class="additional-info">900 руб.</span></div>
+                                    <div class="subline">Круглосуточно, ПН-ПТ</div>
+                                    <div class="subline">ул. Куйбышева, 10 <span class="additional-info">500 м</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
                         <div class="content-block">Медицинские услуги по&nbsp;депозитной программе&nbsp;ДМС для&nbsp;работников СКБ&nbsp;Контур в&nbsp;Екатеринбурге.</div>
                         <div class="content-block">
                             <p><a href="#services" class="button button-big">Получить медицинскую услугу</a></p>
@@ -598,21 +627,17 @@
 
                         <div data-page="appointment" class="page cached">
                             <div class="page-content">
-                                <div class="list-block">
-                                    <ul>
-                                        <li class="item-content">
-                                            <div class="item-inner">
-                                                <div class="item-title">
-                                                    <div class="item-title-main">Доктор Плюс <span class="additional-info">4,8 балла</span></div>
-                                                    <div class="subline">Определение уровня гормонов <span class="additional-info">3500 руб.</span></div>
-                                                    <div class="subline">Круглосуточно, ПН-ПТ</div>
-                                                    <div class="subline">ул. Куйбышева, 10 <span class="additional-info">500 м</span></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
                                 <div class="content-block call-action">Запишитесь на приём по телефону<br><a href="#call" class="call-action_phone">+7 343 212-06-06</a></div>
+
+                                <div class="content-block-title">Дата приёма</div>
+                                <div class="content-block">
+                                    <div style="padding:0; margin-right:-15px; width:auto" class="content-block-inner">
+                                        <div id="calendar-inline-container"></div>
+                                    </div>
+                                </div>
+
+                                <div class="content-block call-action">Сообщите о&nbsp;записи страховой компании<br>и&nbsp;дождитесь одобрения</div>
+                                <div class="content-block"><a href="#index-step2" class="button button-big">Сообщить страховой компании</a></div>
                             </div>
                         </div>
 
