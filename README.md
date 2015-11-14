@@ -1,2 +1,2 @@
-# awesome-health-insurance-app
-A prototype of an app for a voluntary health insurance program user
+# Прототип мобильного приложения
+Разработан на двухдневном курсе по проектированию клёвого приложения в СКБ Контур.
