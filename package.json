@@ -1,0 +1,8 @@
+{
+  "name": "awesome-health-insurance-app",
+  "version": "0.1.0",
+  "author": "Igor Lukanin <mail@igor.lukanin.name>",
+  "dependencies": {
+    "framework7": "^1.3.5"
+  }
+}
