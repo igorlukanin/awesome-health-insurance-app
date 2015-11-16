@@ -68,3 +68,7 @@ a.item-content {
 .hidden {
     display: none;
 }
+
+.content-block__center {
+    text-align: center;
+}
