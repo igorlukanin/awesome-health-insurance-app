@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Igor Lukanin <mail@igor.lukanin.name>",
   "dependencies": {
+    "font-awesome": "^4.4.0",
     "framework7": "^1.3.5"
   }
 }
