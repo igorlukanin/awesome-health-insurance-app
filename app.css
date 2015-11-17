@@ -78,3 +78,20 @@ a.item-content {
     font-size: 2em;
     margin: 0;
 }
+
+.panel {
+    background-color: #383744;
+}
+
+.panel .list-block {
+    font-size: 1em;
+}
+
+.panel .list-block ul {
+    background-color: inherit;
+    color: #eee;
+}
+
+.panel .list-block ul:before, .panel .list-block ul:after {
+    background-color: inherit;
+}
