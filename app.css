@@ -95,3 +95,18 @@ a.item-content {
 .panel .list-block ul:before, .panel .list-block ul:after {
     background-color: inherit;
 }
+
+.panel .content-block {
+    color: #eee;
+}
+
+.avatar {
+    background-image: url('https://staff.skbkontur.ru/api/images/150-150-300/6a648eee-2edc-4d0e-97f8-9e15b752d70e/dsc05583.jpg?size=m&avatar=true');
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+}
